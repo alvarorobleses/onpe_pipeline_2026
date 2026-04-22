@@ -16,13 +16,13 @@ docker run onpe-pipeline
 
 ```
 onpe-pipeline/
-├── Dockerfile        # Receta para crear la imagen
+├── Dockerfile        # Crear la imagen en docker
 ├── requirements.txt  # Dependencias Python
 ├── main.py           # Pipeline completo (extracción + transformación)
 └── README.md
 ```
 
-## 🔧 Correr localmente (sin Docker)
+## 🔧 Correr localmente
 
 ```bash
 pip install -r requirements.txt
